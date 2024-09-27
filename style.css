@@ -1,0 +1,27 @@
+:root {
+    --cor-principal: #333;
+    --cor-destaque: #007bff;
+}
+
+body {
+    font-family: 'Chakra Petch', sans-serif;
+    color: var(--cor-principal);
+}
+
+.lead {
+    color: var(--cor-destaque);
+    font-weight: 700;
+}
+
+a, .btn-link:hover {
+    color: var(--cor-principal);
+}
+
+a:hover {
+    color: var(--cor-destaque);
+}
+
+footer {
+    margin-top: 20px;
+    padding: 10px 0;
+}
